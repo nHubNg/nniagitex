@@ -28,7 +28,7 @@ const Slider = () => {
           }}
           className='slide'
         >
-          <img src={slide} alt={`Slide ${index}`} className='image w-[60%]' />
+          <img src={slide} alt={`Slide ${index}`} className='image w-[40%]'  style={{width: '70%'}}/>
         </div>
       ))}
     </div>
