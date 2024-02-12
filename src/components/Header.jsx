@@ -3,6 +3,7 @@ import logo from '../assets/Group 1171278505.png';
 import { HiArrowSmRight } from "react-icons/hi";
 import { images } from './images';
 import Navigation from './Navigation';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
           Pitch your idea for a chance to win a trip to Marrakech,
           Morocco, and elevate your startup from Northern Nigeria to the global stage.</p>
           <div className='flex justify-center my-10'>
-            <button className='bg-gradient-to-tr from-[#ff2169] to-[#e62d8e] p-3 rounded-lg'>Save a spot</button>
+          <Link to="saveSpot" smooth={true} duration={500} className='bg-gradient-to-tr cursor-pointer from-[#ff2169] to-[#e62d8e] p-3 rounded-lg'>Save a spot</Link>
           </div>
         </div>
       </div>

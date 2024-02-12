@@ -52,11 +52,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className=' w-[100%] h-screen mx-auto flex justify-center items-center'>
+      <div className=' w-[100%] h-screen mx-auto flex justify-center items-center' id='saveSpot'>
       <div className="bg-[#DEF4FF] h-[70%] w-[80%] rounded-[4rem] flex flex-col justify-center overflow-hidden">
        <span className='flex justify-center flex-col items-center'>
 
-        <h1 className=' md:text-7xl text-3xl font-semibold mt-10'>Save your Spot</h1>
+        <h1 className=' md:text-7xl text-3xl font-semibold mt-10' >Save your Spot</h1>
         <p className='font-light leading-7 text-center'>
         Don't miss this exciting opportunity to propel your startup to new heights.
         </p>
