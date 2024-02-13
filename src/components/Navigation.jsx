@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { images } from './images';
-import { FiMenu, FiX } from 'react-icons/fi'; // Import the icons you want to use
+import { FiMenu, FiX } from 'react-icons/fi'; 
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const Navigation = () => {
     <nav className="bg-white shadow-md z-50 sticky top-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 bg-[#05052bf6] p-2 rounded-md">
             <a href="/" className="flex items-center">
               <img className="h-8 w-auto" src={images.logo} alt="Logo" />
               <img className="h-8 w-auto ml-2" src={images.gitex} alt="Gitex" />

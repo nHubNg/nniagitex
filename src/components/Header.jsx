@@ -8,7 +8,7 @@ import { Link } from 'react-scroll';
 const Header = () => {
   return (
     <>
-      <Navigation style={{ zIndex: 1000 }} /> {/* Place Navigation component here */}
+      <Navigation style={{ zIndex: 1000 }} /> 
     <div className="relative overflow-x-hidden">
       <div className="absolute inset-0 bg-[#05052bf6] opacity-95 z-10"></div>
       <div className='hero relative h-screen'>
