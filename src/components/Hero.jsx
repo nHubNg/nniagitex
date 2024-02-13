@@ -66,7 +66,7 @@ const Hero = () => {
           <a href="https://innovate.expandnorthstar.com/en/challenges/roadshow-nigeria-abuja24?lang=en">
       <button className='px-10 py-4 outline outline-1 rounded-lg outline-[#05052bf6] my-5 hover:bg-[#05052bf6] transition-all duration-300 hover:text-white'>Abuja</button>
           </a>
-      <p>27th February 2024</p>
+      <p>26th February 2024</p>
         </div>
         <div className='flex flex-col justify-center items-center'>
           <a href="https://innovate.expandnorthstar.com/en/challenges/roadshow-nigeria-lagos24?lang=en">
@@ -78,7 +78,7 @@ const Hero = () => {
           <a href="https://innovate.expandnorthstar.com/en/challenges/roadshow-nigeria-kaduna24?lang=en">
       <button className='px-10 py-4 outline outline-1 rounded-lg outline-[#05052bf6] my-5 hover:bg-[#05052bf6] transition-all duration-300 hover:text-white'>Kaduna</button>
       </a>
-    <p>27th February 2024</p>
+    <p>29th February 2024</p>
         </div>
        </div>
       </div>
