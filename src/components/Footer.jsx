@@ -16,7 +16,7 @@ const Footer = () => {
               <img src={images.logo} alt="" className='w-16 p-2'/>
             </a>
           </div>
-          <div className="text-xl font-light pt-3 text-center md:text-left">+234 000 000 0000</div>
+          <div className="text-xl font-light pt-3 text-center md:text-left">+234 806 864 0710</div>
           <div className="flex justify-center md:justify-start space-x-4">
             <a href="#" className="text-white my-5 text-2xl hover:text-gray-400">
               <FaFacebook />
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         <div className="text-center flex flex-col items-center md:text-left mt-4 md:mt-0">
           <h1 className='text-white font-bold mb-5 text-center md:text-left'>Quick Links</h1>
-          <a href="#" className="text-white my-2 hover:text-gray-400">Learn More</a>
+          <a href="https://nnia.ng/about" className="text-white my-2 hover:text-gray-400">Learn More</a>
           <a href="https://nnia.ng/" className="text-white my-2 hover:text-gray-400">NNIA</a>
           <a href="#" className="text-white my-2 hover:text-gray-400">Help Center</a>
         </div>
