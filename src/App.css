@@ -1,8 +1,12 @@
+
 .hero {
     background-image: url('./assets/hero.png');
 }
 *{
     font-family: 'Poppins';
+}
+body {
+  font-family: 'Poppins';
 }
 .slider-container {
     position: relative;
