@@ -5,6 +5,7 @@ import { images } from './images';
 import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="text-[white] bg-[#05052bf6] py-8">
       <div className="container mx-auto flex flex-col md:flex-row md:items-start justify-between px-4">
@@ -34,7 +35,7 @@ const Footer = () => {
             <a href="#" className="hover:text-gray-400">Privacy Policy</a>
             <a href="#" className="hover:text-gray-400 ml-2">Terms & Agreement</a>
           </div>
-          <p className='text-center font-extralight py-2 text-xs'>Copyright 2023. All rights reserved</p>
+          <p className='text-center font-extralight py-2 text-xs'>Copyright {currentYear} All rights reserved</p>
         </div>
         <div className="text-center flex flex-col items-center md:text-left mt-4 md:mt-0">
           <h1 className='text-white font-bold mb-5 text-center md:text-left'>Quick Links</h1>
